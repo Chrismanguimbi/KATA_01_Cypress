@@ -6,44 +6,44 @@
 <body>
     <h1>QCM</h1>
     <div class="question">
-        <h2>Quelle est la capitale de la France ?</h2>
+        <h2 data-cy="q1">Quelle est la capitale de la France ?</h2>
         <div id="reponse">
             <ul>
                 <li>
-                    <input type="radio" name="qradio" onclick="questionRadio()" value="Milan"/>
+                    <input type="radio" name="qradio" onclick="questionRadio()" value="Milan" data-cy="q1r1"/>
                     <label>Milan</label>
                 </li>
                 <li>
-                    <input type="radio" name="qradio" onclick="questionRadio()" value="Tokyo"/>
+                    <input type="radio" name="qradio" onclick="questionRadio()" value="Tokyo" data-cy="q1r2"/>
                     <label>Tokyo</label>
                 </li>
                 <li>
-                    <input type="radio" name="qradio" onclick="questionRadio()" value="Paris"/>
+                    <input type="radio" name="qradio" onclick="questionRadio()" value="Paris" data-cy="q1r3"/>
                     <label>Paris</label>
                 </li>
-                <div id="reponseradio"></div>
+                <div id="reponseradio" data-cy="r1"></div>
             </ul>
         </div>
-        <h2>Quelle sont les marques française ?</h2>
+        <h2 data-cy="q2">Quelle sont les marques française ?</h2>
         <div id="reponse">
             <ul>
                 <li>
-                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Peugeot"/>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Peugeot" data-cy="q2r1"/>
                     <label>Peugeot</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Citroen"/>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Citroen" data-cy="q2r2"/>
                     <label>Citroen</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Mercedes"/>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Mercedes" data-cy="q2r3"/>
                     <label>Mercedes</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Fiat"/>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Fiat" data-cy="q2r4"/>
                     <label>Fiat</label>
                 </li>
-                <div id="reponsecheckbox"></div>
+                <div id="reponsecheckbox" data-cy="r2"></div>
             </ul>
             </ul>
         </div>
