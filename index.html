@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css" language="CSS">
+    <script src="code.js"></script>
+</head>
+<body>
+    <h1>QCM</h1>
+    <div class="question">
+        <h2>Quelle est la capitale de la France ?</h2>
+        <div id="reponse">
+            <ul>
+                <li>
+                    <input type="radio" name="qradio" onclick="questionRadio()" value="Milan"/>
+                    <label>Milan</label>
+                </li>
+                <li>
+                    <input type="radio" name="qradio" onclick="questionRadio()" value="Tokyo"/>
+                    <label>Tokyo</label>
+                </li>
+                <li>
+                    <input type="radio" name="qradio" onclick="questionRadio()" value="Paris"/>
+                    <label>Paris</label>
+                </li>
+                <div id="reponseradio"></div>
+            </ul>
+        </div>
+        <h2>Quelle sont les marques française ?</h2>
+        <div id="reponse">
+            <ul>
+                <li>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Peugeot"/>
+                    <label>Peugeot</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Citroen"/>
+                    <label>Citroen</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Mercedes"/>
+                    <label>Mercedes</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="qcheckbox" onclick="questionCheckBox()" value="Fiat"/>
+                    <label>Fiat</label>
+                </li>
+                <div id="reponsecheckbox"></div>
+            </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
