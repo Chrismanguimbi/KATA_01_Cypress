@@ -30,6 +30,7 @@ describe("QCM", () => {
     cy.get("[data-cy=q1r2]").click();
     cy.get("[data-cy=r1]").should("contains.text", "Mauvaise reponse");
     cy.get("[data-cy=q2r3]").click();
+    cy.get("[data-cy=r2]").should("contains.text", "Mauvaise reponse");
     cy.get("[data-cy=q2r4]").click();
     cy.get("[data-cy=r2]").should("contains.text", "Mauvaise reponse");
   });
